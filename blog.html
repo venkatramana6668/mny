@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGUKT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="responsive.css">
+
+</head>
+
+<body>
+
+    <section class="blog-header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="close-icon" onclick="hiddenMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="menu-icon" onclick="showMenu()">&#8801;</i>
+        </nav>
+
+        <h1>COLLAGE PLACEMENTS</h1>
+ 
+    </section>
+
+
+  <section class="blog-page">
+      <div class="blog-content">
+          <div class="content-left">
+              <img src="images/blog.jpg" alt="">
+              <h2>COLLAGE PLACEMENTS</h2>
+              
+              
+              <div class="comment-box">
+                  
+                  <h3>Leave a Comment</h3>
+                  
+                  <form action="" class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="email" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your Comment"></textarea>
+                      <button type="submit" class="comment-btn">POST COMMENT</button>
+                    </form>
+                    
+                </div>
+                
+            </div>
+
+
+          <div class="content-right">
+              <h3>Palcements</h3>
+              <div>
+                  <span>CSE</span>
+                  <span>290</span>
+              </div>
+              <div>
+                <span>ECE</span>
+                <span>200</span>
+            </div>
+            <div>
+                <span>CHEMICAL</span>
+                <span>60</span>
+            </div>
+            <div>
+                <span>MME</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>CIVIL</span>
+                <span>100</span>
+            </div>
+            <div>
+                <span>MECH</span>
+                <span>100</span>
+            </div>
+            <div>
+                <span>EEE</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>MTECH</span>
+                <span>10</span>
+            </div>
+            <div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="facilities">
+    <h1>Students Place Companies</h1>
+    <div class="facilities-card">
+        <div class="fac-card">
+            <img src="images/info.png" alt="">
+            <h3>Infosys</h3>
+        </div>
+        <div class="fac-card">
+            <img src="images/hcl.webp" alt="">
+            <h3>HCL</h3>
+        </div>
+        <div class="fac-card">
+            <img src="images/wipro.jpeg" alt="">
+            <h3>Wipro</h3>
+        </div>
+         <div class="fac-card">
+            <img src="images/tech.jpeg" alt="">
+            <h3>Tech Mahindra</h3>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>IIIT Nuzvid, or the Indian Institute of Information Technology Nuzvid, is a renowned engineering institute located in Nuzvid, Andhra Pradesh, India. It offers undergraduate and postgraduate programs in cutting-edge fields like Computer Science, Electronics, and Information Technology, with a strong emphasis on research, innovation, and technology-driven education</p>
+
+    <div class="icons">
+        <i class="fo-img" class="facebook"><img src="images/footer1.png" alt=""></i>
+        <i class="fo-img" class="instagram"><img src="images/footer2.png" alt=""></i>
+        <i class="fo-img" class="twitter"><img src="images/footer3.png" alt=""></i>
+    </div>
+</section>
+
+
+    <!-- javascript for slide menu -->
+
+    <script>
+        var navlinks = document.getElementById("nav-links")
+
+        function hiddenMenu() {
+            navlinks.style.right= "-200px";
+        }
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
