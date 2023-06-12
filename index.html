@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGUKT</title>
+
+    <!--normal bootstrap-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script href="js/bootstrap.bundle.min.js"></script>
+    <script href="jquery/jquery-3.7.0.min.js"></script>
+
+    
+</head>
+
+<body>
+
+ <!--  <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+
+            <div class="nav-links" id="nav-links">
+                <i class="close-icon" onclick="hiddenMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <h1>Rajiv Gandhi University Of Knowledge Technologies Nuzvid</h1>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-between align-items-center breaking-news bg-white rounded-right">
+                            <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news rounded-left"><span class="d-flex align-items-center">&nbsp;CNN News</span></div>
+                            <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </a> <span class="dot"></span> <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </a> <span class="dot"></span> <a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse </a>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>  --> 
+
+
+<!--header-->
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container col-md-12">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height:15vh; width:15vh;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto topnav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="course.html">COURSE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="author.html">AUTHOR</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            INTERFACES
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">RGUKTN</a>
+            <a class="dropdown-item" href="#">OTHERS</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">RGUKTN</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary text-white" type="button" href="#" data-toggle="modal" data-target="#myModal">Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-danger text-white" type="button" href="#" data-toggle="modal" data-target="#myModal">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container mt-1" id="n">
+  <div class="row justify-content-center">
+      <div class="col-md-12">
+          <div class="d-flex justify-content-between align-items-center breaking-news bg-dark">
+              <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;CNN News</span></div>
+              <marquee class="news-scroll " behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#" class="text-warning">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </a> <span class="dot"></span> <a href="#" class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </a> <span class="dot"></span> <a href="#" class="text-warning">Duis aute irure dolor in reprehenderit in voluptate velit esse </a>
+              </marquee>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- courese-->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>We offer three courses across a range of study levels and disciplines.</p>
+
+        <div class="course-cards">
+            <div class="card">
+                <h3>PUC</h3>
+                <p>A PRE UNIVERSITY COURSE(PUC)/INTER is more in-depth than a certificate and can take a little longer to earn, but still usually less than two years. these programs are also often more technical.The classes taken in conjunction with earning a puc allow you to gain a thorough understanding of your field of study.</p>
+            </div>
+            <div class="card">
+                <h3>B-TECH</h3>
+                <p>B. Tech full form is Bachelor of Technology. It is one of the prestigious and most popular courses opted by science students. It is a 4-year full-time undergraduate course and is offered in various disciplines such as Computer Science, Civil, Mechanical, Electronics, Metulargy and EEE..</p>
+            </div>
+            <div class="card">
+                <h3>M-TECH</h3>
+                <p>The master’s degree which typically correlates with advanced study in fields that relate to science and mathematics. Courses in these programs often require extensive lab work or research and culminate with thesis or capstone projects, as well.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>The main objective of the campus placement activity is to get students a job right after they have finished their education.</p>
+
+        <div class="campus-cards">
+            <div class="card-col">
+                <img src="images/iiitn.jpeg" alt="">
+                <div class="layer">
+                    <h3>NUZVID</h3>
+                </div>
+            </div>
+
+            <div class="card-col">
+                <img src="images/iiits.jpeg" alt="">
+                <div class="layer">
+                    <h3>SRIKAKULAM</h3>
+                </div>
+            </div>
+            <div class="card-col">
+                <img src="images/iiito.jpeg" alt="">
+                <div class="layer">
+                    <h3>ONGOAL</h3>
+                </div>
+            </div>
+            <div class="card-col">
+                <img src="images/iiitr.jpeg" alt="">
+                <div class="layer">
+                    <h3>RK VALLEY</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>  
+
+    <!-- student organizations -->
+
+    <section class="wrapper"> 
+      <div class="container-fostrap">
+          <div class="content">
+            <h1>Student Organizations</h1>
+
+              <div class="container">
+                  <div class="row">
+
+                      <div class="col-xs-12 col-sm-3">
+                          <div class="card">
+                              <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                              <img src="images/sm.jpg"/>
+                            </a>
+                              <div class="card-content">
+                                  <h4 class="card-title">
+                                  STUSENT MITHRA
+                                  </h4>
+                                  <p class="">
+                                  StudentMithra is a vibrant and inclusive student organization dedicated to promoting academic excellence.                                  </p>
+                              </div>
+                              <div class="card-read-more">
+                                  <a href="#" class="btn btn-link btn-block">
+                                      Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-3">
+                          <div class="card">
+                              <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                              <img src="images/sdcac.png" />
+                            </a>
+                              <div class="card-content">
+                                  <h4 class="card-title">
+                                      <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> SDCAC
+                                    </a>
+                                  </h4>
+                                  <p class="">
+                                    The Student Development and Coding Activities Club (SDCAC) is a dynamic and innovative technical organization.
+                                  </p>                                  
+                              </div>
+                              <div class="card-read-more">
+                                  <a href="#" class="btn btn-link btn-block">
+                                      Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-3">
+                          <div class="card">
+                              <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                              <img src="images/ecrush.jpeg" />
+                            </a>
+                              <div class="card-content">
+                                  <h4 class="card-title">
+                                      <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">ECRUSH
+                                    </a>
+                                  </h4>
+                                  <p class="">
+                                    E-Crush is a dynamic and innovative organization dedicated to providing English learning and upskilling opportunities to students.
+                                  </p>
+                              </div>
+                              <div class="card-read-more">
+                                  <a href="#" class="btn btn-link btn-block">
+                                      Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-3">
+                        <div class="card">
+                            <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                            <img src="images/cc.png" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="#">CAMPUS CHRONICAL
+                                  </a>
+                                </h4>
+                                <p class="">
+                                  Campus Chronicle is a dynamic and student-led media organization that aims to be the voice of the campus community.
+                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+<!-- facilities-->
+
+
+<div class="container mt-2">
+  
+  <div class="row">
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+        <h4 class="card-title text-right"><i class="material-icons"></i>Facilities</h4>
+        <img src="images/ground.png" alt="Photo of sunset">
+        <h5 class="card-title mt-3 mb-3">Play Ground</h5>
+        <p class="card-text">
+          We are provide safe spaces where students develop crucial physical, social, emotional and imaginative skills necessary to gain self-confidence.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+        <h4 class="card-title text-right"><i class="material-icons">Facilities</i></h4>
+        <img src="images/fc.png" alt="Photo of sunset">
+        <h5 class="card-title  mt-3 mb-3">Food Court</h5>
+        <p class="card-text">
+          A wide variety of food is in the offering at the lowest rates and keeps student pretty pleased
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+        <h4 class="card-title text-right"><i class="material-icons">Facilities</i></h4>
+        <img src="images/aud.jpeg" alt="Photo of sunset">
+        <h5 class="card-title  mt-3 mb-3">SAC</h5>
+        <p class="card-text">
+          auditorium(SAC), the part of a public building where an audience sits, as distinct from the stage.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card card-block">
+        <h4 class="card-title text-right"><i class="material-icons">Facilities</i></h4>
+        <img src="images/library.png" alt="Photo of sunset">
+        <h5 class="card-title  mt-3 mb-3">Library</h5>
+        <p class="card-text">
+          By providing free access to educational, news, and historical resources, libraries help keep the public informed with facts.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+ 
+<!-- footer -->
+
+<section class="footer">
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>RGUKT NUZVID
+            </h6>
+            <p>
+                IIIT Nuzvid is known for its excellent academics, offering programs in Information Technology and Computer Science Engineering.
+                The institute has highly qualified faculty who encourage research and innovation.
+                
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Related Sites
+            </h6>
+            <p>
+              <a href="https://www.iiitnuz.ac.in/" class="text-reset">Official Website</a>
+            </p>
+            <p>
+              <a href="https://www.iiitnuzadmissions.in/" class="text-reset">Admission Portal</a>
+            </p>
+            <p>
+              <a href="https://www.iiitnuzrnd.com/" class="text-reset">Development Cell
+            </a>
+            </p>
+            <p>
+              <a href="https://www.iiitnuztpc.com/" class="text-reset">Placement Cell</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Our Campauses
+            </h6>
+            <p>
+              <a href="https://www.iiitnuz.ac.in/" class="text-reset">RGUKTN</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">RGUKTR</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">RGUKTO</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">RGUKTS</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>Nuzvid , Mylavaram Road , 521202</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              rguktn.ac.in
+            </p>
+            <p><i class="fas fa-phone me-3"></i>+91 143</p>
+            <p><i class="fas fa-print me-3"></i>+91 108</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="#">RGUKTN</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+
+    <!-- javascript for slide menu -->
+
+    <script>
+        var navlinks = document.getElementById("nav-links")
+
+        function hiddenMenu() {
+            navlinks.style.right= "-200px";
+        }
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
